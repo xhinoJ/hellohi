@@ -23,4 +23,10 @@ public class AzzzApplication {
     public String hi() {
         return "Hi, World!";
     }
+
+    @RequestMapping("/")
+    public String noGreet() {
+        return "No greeting??!";
+    }
+
 }
